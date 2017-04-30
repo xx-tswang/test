@@ -1,0 +1,20 @@
+{
+    "name": "tsw/test",
+    "description": "this is a test",
+    "license": "1.0.0",
+    "authors": [
+        {
+            "name": "tianshuowang",
+            "email": "tianshuowang@sina.cn"
+        }
+    ],
+    "require": {
+	"php": ">=5.4.0" 
+    },
+    "autoload": {
+        "psr-4": {
+            "test//": "src/"
+        }
+     }
+
+}
