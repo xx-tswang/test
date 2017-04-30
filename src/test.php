@@ -3,5 +3,9 @@
 namespace test;
 
 class test {
-	echo time();	
+
+	public function test() {
+		echo time();		
+	}
+
 }
